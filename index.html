@@ -1,1 +1,101 @@
-<h1>This is hotbird</h1>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>HotBird Oakland</title>
+    <meta name="description" content="HotBird Oakland">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/components/sidebar.min.css"> -->
+
+<!--     <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-64282864-1', 'auto');
+      ga('send', 'pageview');
+
+    </script> -->
+
+</head>
+<body class="home-template">
+
+<header id="site-head" style="background-image: url(assets/sandwich.jpg); background-position-y: 51.6153846153846%;">
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
+            <h1 class="blog-title">Peter Kim</h1>
+            <h2 class="blog-description">Software Engineer. Car Enthusiast.</h2>
+            <h2 class="blog-description">Builds Stuff.</h2>
+            <a class="btn first">About Me</a>
+            <a class="btn last target">Contact</a><br>
+        </div>
+    </div>
+
+</header>
+
+<main class="content" role="main">
+		<div class="ui left demo vertical inverted sidebar labeled icon menu">
+		  <a class="item">
+		    <i class="home icon"></i>
+		    Home
+		  </a>
+		  <a class="item">
+		    <i class="block layout icon"></i>
+		    Topics
+		  </a>
+		  <a class="item">
+		    <i class="smile icon"></i>
+		    Friends
+		  </a>
+		</div>
+
+    <div style="display: block;" class="fixed-nav">
+        <!-- <a class="fn-item" item_index="1">About Me</a>
+        <a class="fn-item" item_index="2">Projects</a>
+        <a class="fn-item active" item_index="3">Misc</a>
+        <a class="fn-item" item_index="4">Contact Me</a> -->
+    </div>
+
+    <div class="post-holder">
+        <article item_index="3" id="contact-me" class="post last">
+            <header class="post-header">
+                <h2 class="post-title">Contact</h2>
+            </header>
+            <section class="post-content">
+                <p> <a href="mailto:hotbirdoakland@gmail.com">Email</a></p>
+                <p> <a target="_blank" href="https://www.linkedin.com/in/petercwkim">LinkedIn</a></p>
+                <p> <a target="_blank" href="https://github.com/p3tuh">Github</a></p>
+                <p> <a target="_blank" href= "https://docs.google.com/document/d/1FrvQkm_xbW8kDs-Il8RtLFJ1IqWW7nM_O0ivJnAuskQ/edit?usp=sharing
+"> Resume </a></p>
+            </section>
+        </article>
+        <div style="border-top-color: rgb(0, 153, 204); display: none;" class="post-after"></div>
+    </div>
+</main>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script>
+    	$( ".target" ).click(function() {
+    	  $('.ui.labeled.icon.sidebar')
+    	    .sidebar('toggle');
+
+    	});
+    </script>
+</body>
+
+</html>
