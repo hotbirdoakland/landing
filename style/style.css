@@ -22,7 +22,7 @@
    0. Includes - Ground zero
    ========================================================================== */
 
-@import url(normalize.css);
+/*@import url(normalize.css);*/
 
 
 /* ==========================================================================
@@ -1127,7 +1127,8 @@ a.fn-item.active {
    @media (min-width:600px){
     #segment1 { 
       background: no-repeat center;
-      background-image: url("../assets/sandwich-dark.jpg");
+      /*background-image: url("../assets/sandwich-dark.jpg");*/
+      background-image: url("../assets/i-hBWfZ92-XL.jpg");
        /*background-size: 100%;*/
        /*background-position-y: 51.6153846153846%;*/
        /*object-fit: cover;*/
@@ -1136,7 +1137,8 @@ a.fn-item.active {
     
     #segment2 { 
       background: no-repeat center;
-      background-image: url("../assets/sandwich.jpg");
+      /*background-image: url("../assets/sandwich.jpg");*/
+      background-image: url("../assets/i-crzJFfv-X2.jpg");
        /*background-size: 100%;*/
        /*background-position-y: 51.6153846153846%;*/
        /*object-fit: cover;*/
@@ -1145,7 +1147,8 @@ a.fn-item.active {
 
     #segment3 { 
       background: no-repeat center;
-      background-image: url("../assets/plate.jpg");
+      /*background-image: url("../assets/plate.jpg");*/
+      background-image: url("../assets/i-6JKxLJz-XL.jpg");
        /*background-size: 100%;*/
        /*background-position-y: 51.6153846153846%;*/
        /*object-fit: cover;*/
@@ -1156,7 +1159,8 @@ a.fn-item.active {
    @media (max-width:599px){
      #segment1 { 
        background: no-repeat center;
-       background-image: url("../assets/sandwich-dark-portrait.jpg");
+       background-image: url("../assets/i-fGVnC5Z-XL.jpg");
+        /*background-image: url("../assets/i-3Dz5S2F-XL.jpg");*/
         /*background-size: 100%;*/
         /*background-position-y: 51.6153846153846%;*/
         /*object-fit: cover;*/
@@ -1165,7 +1169,7 @@ a.fn-item.active {
 
      #segment2 { 
        background: no-repeat center;
-       background-image: url("../assets/marble.jpg");
+       background-image: url("../assets/i-Pg482NR-XL.jpg");
         /*background-size: 100%;*/
         /*background-position-y: 51.6153846153846%;*/
         /*object-fit: cover;*/
@@ -1174,7 +1178,8 @@ a.fn-item.active {
 
      #segment3 { 
        background: no-repeat center;
-       background-image: url("../assets/sandwich3.jpg");
+       /*background-image: url("../assets/sandwich3.jpg");*/
+       background-image: url("../assets/i-KWvs45r-XL.jpg");
         /*background-size: 100%;*/
         /*background-position-y: 51.6153846153846%;*/
         /*object-fit: cover;*/
