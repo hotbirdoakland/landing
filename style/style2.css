@@ -66,6 +66,7 @@ h1, h2, h3 {
 	font-weight: 800;
 	font-size: 1.5rem;
 	letter-spacing: 0.5px;
+	padding-top: 0 !important;
 }
 
 .navbar {
@@ -85,9 +86,10 @@ h1, h2, h3 {
 .navbar-toggler-right {
 	right: 0rem;
 
-	position: absolute;
+	border: none !important;
+/*	position: absolute;
 	top: 50%;
-	transform: translateY(-50%)
+	transform: translateY(-50%)*/
 }
 
 .portfolio-img {
@@ -124,7 +126,7 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
 	color: #000;
@@ -139,6 +141,8 @@ h1, h2, h3 {
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
+
+  padding-right :10%;
 }
 
 .hovereffect:hover .overlay-text {
@@ -178,6 +182,16 @@ h1, h2, h3 {
 
 @media only screen and (max-width: 500px) {
 	.logo-white {
-		width: 180px;
+		width: 150px;
 	}
+
+	.overlay-text {
+		/*font-size: 1rem;*/
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+/*	.overlay-text {
+		font-size: 1rem;
+	}*/
 }
