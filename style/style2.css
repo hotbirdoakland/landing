@@ -1,3 +1,5 @@
+/*@import 'normalize.css';*/
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -62,13 +64,13 @@ h1, h2, h3 {
 	margin-bottom: 20px;
 }
 
-.navbar-brand {
+/*.navbar-brand {
 	font-weight: 800;
 	font-size: 1.5rem;
 	letter-spacing: 0.5px;
 	padding-top: 0 !important;
 }
-
+*/
 .navbar {
 	text-transform: uppercase;
 }
@@ -79,14 +81,11 @@ h1, h2, h3 {
 	letter-spacing: 1.5px;
 }
 
-.navbar-toggler {
-	border: 0;
-}
 
 .navbar-toggler-right {
 	right: 0rem;
 
-	border: none !important;
+	/*border: none !important;*/
 /*	position: absolute;
 	top: 50%;
 	transform: translateY(-50%)*/
