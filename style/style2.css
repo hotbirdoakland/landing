@@ -81,6 +81,9 @@ h1, h2, h3 {
 	letter-spacing: 1.5px;
 }
 
+.navbar-toggler {
+	border: none !important;
+}
 
 .navbar-toggler-right {
 	right: 0rem;
@@ -126,9 +129,9 @@ h1, h2, h3 {
 }
 
 .hovereffect .overlay-text {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-family: 'Crimson Text', sans-serif;
-	font-weight: 300;
+	font-weight: 100;
 	color: #000;
 	left: 50%;
 	position: absolute;
