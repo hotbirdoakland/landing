@@ -17,9 +17,17 @@
   <link rel="stylesheet" type="text/css" href="style/style2.css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
 
+  <script language="JavaScript" type="text/javascript">
+    function breakout_of_frame()
+    {
+      if (top.location != location) {
+        top.location.href = document.location.href ;
+      }
+    }
+  </script>
   
 </head>  
-<body data-gr-c-s-loaded="true" style="" class="container">
+<body data-gr-c-s-loaded="true" style="" class="container" onload="breakout_of_frame()">
   <!-- <div class="container-fluid navbar-container m-sm-5"> -->
   <div class="container=fluid">
    <!-- Header -->
