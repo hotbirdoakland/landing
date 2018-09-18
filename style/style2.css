@@ -193,3 +193,17 @@ h1, h2, h3 {
 #navbar {
 	background-color: white;
 }
+
+
+.flexContainer {
+	display: flex;
+	margin-bottom: 10px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.flexContainer a {
+	color: grey;
+	text-decoration: underline;
+}
